@@ -37,8 +37,6 @@ class ScalaFXHelloWorld extends Application {
     stage.setTitle("Does it work?")
     stage.setScene(new Scene(new Label("It works!")))
     stage.show()
-
-    Platform.exit()
   }
 }
 
